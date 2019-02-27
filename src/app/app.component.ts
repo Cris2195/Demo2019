@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demo2019';
+  tooltip = "come voglio io";
+inputVar : string;
+
+  changeName(){
+    this.title = "ho cambiato titolo";
+  }
+  showAlert(){
+    alert(this.inputVar);
+  }
+
+
 }
+
+
